@@ -1,0 +1,36 @@
+
+
+.searchPozition {
+    position: absolute;
+    top: 10.5%;
+    left: 66%;
+    width: 1100px;
+}
+
+.categoriesPozition {
+    position: absolute;
+    top: 35.5%;
+    left: 66%;
+    width: 1100px;
+}
+
+.widgetPozition {
+    position: absolute;
+    top: 65.5%;
+    left: 66%;
+    width: 1100px;
+}
+
+
+.adaugaPostare {
+    margin-top: 5%;
+}
+
+.homePozition {
+    margin-top: 5%;
+}
+
+
+.butoane{
+    padding-left: 48.45%;;
+  }
