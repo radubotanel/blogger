@@ -11,23 +11,26 @@ import {
 import './index.css';
 import reportWebVitals from './reportWebVitals';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import {Home, Post, Search, Categories, NavBar, Widget, Comment, LeaveComment, Btns, AddPost} from './Home';
-import Login from './Login';
+import Home from './Home';
+import {Post, Search, Categories, NavBar, Widget, Comment, LeaveComment, Btns, AddPost} from './Home';
+import {Login, Register} from './Login';
+import {insertIntoDb} from './licenta/connect';
+
 
 
 ReactDOM.render(
 <React.StrictMode>
-
 
 <Router>
   <Switch>
       <Route path= "/Login">
         <Login />
       </Route>
+      <Route path= "/Register">
+        <Register />
+      </Route>
       <Route exact path= "/">
         <NavBar />
-        <Home/>
-        <Home/>
         <Home/>
         <Search />
         <Categories />
@@ -43,8 +46,6 @@ ReactDOM.render(
         <LeaveComment />
         <Comment />
         <Comment />
-        
-
       </Route>
       <Route path="/AddPost">
         <NavBar />
