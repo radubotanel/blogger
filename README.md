@@ -1,70 +1,38 @@
-# Getting Started with Create React App
+# blogger
+Descriere aplicatie
+De ce am ales acest proiect
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Blog-ul este una dintre cele mai populare forme de marketing online, de
+publicare de articole etc. In ultimul timp, aceasta forma capata din ce in ce
+mai multa pupularitate. O platforma de blogger este de un real folos pentru
+creatorii de continut online si pentru marketing.
 
-## Available Scripts
+Descriere aplicatie
 
-In the project directory, you can run:
+Proiectul propune o platforma de blogger. Creatorii de continut pot sa isi
+administreze postarile (sa creeze un o noua postare, sa stearga unua existenta
+sau sa editeze). De asemenea, fiecare postare are o sectiune de comentarii,
+un buton de Like si unul de distribuire. Proiectul propune si o integrare cu
+feeduri RSS.
+Exista doua tipuri de utilizatori: bloggeri si cititori. Fiecare trebuie la
+inceput sa isi creeze un cont.
+Un blogger, dupa ce s-a autentificat, poate sa:
+-Creeze o noua postare
+Aici poate sa adauge imagini, giff-uri si altele
+Poate sa isi customizeze lucrarea in multe feluri, avand multiple forme
+de a isi evidentia continutul si de a-l face cat mai atragator si cat mai placut
+publicului
+- Stearga o postare existenta
+- Editeze o noua postare
+- Citeasca alte postari de la alti bloggeri
+- Comenteze alte postari, iar comentariile vor fi evidentiate
+Un cititor, dup ace s-a autentificat, poate sa:
+- Aleaga o postare pe care doreste sa o citeasca
+- Aprecezea pagina curenta
 
-### `npm start`
+- Distribuie postarea curenta pe Facebook, Twiter si alte retele de comuni-
+care
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Contacteze in privat autorul postarii, transimitandu-i parerile personale
+Tehnologii utilizate: HTML, CSS, JavaScript, PHP
+Baze de date: MySql
